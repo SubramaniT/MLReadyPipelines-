@@ -41,7 +41,7 @@ models:
     # Applies to all files under models/example/
     staging:
   +docs:
-    node_color: "#0000ff"
+    node_color: "CadetBlue"
   marts:
     +materialized: table
     aggregates:
@@ -56,7 +56,7 @@ models:
   
   intermediate:
     +docs:
-      node_color:"MediumStateBlue"
+      node_color:"#ff0000"
 
   ml:
     prep:
