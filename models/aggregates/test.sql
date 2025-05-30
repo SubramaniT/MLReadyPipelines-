@@ -1,0 +1,1 @@
+select * from {{ ref('fastest_pit_stops_by_constructor') }}
